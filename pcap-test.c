@@ -24,7 +24,6 @@ bool parse(Param* param, int argc, char* argv[]) {
 	param->dev_ = argv[1];
 	return true;
 }
-\
 
 int main(int argc, char* argv[]) {
 	if (!parse(&param, argc, argv))
